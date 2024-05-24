@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+.font-nunito {
+	font-family: "Nunito", "Helvetica", sans-serif !important;
+}
+
+.text-white {
+	color: #fff !important;
+}
+
+/* Navbar */
+
+.nav-bg {
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 174, 255, 1),
+		rgba(4, 93, 230, 1)
+	) !important;
+	color: #fff !important;
+}
+
+.nav-item {
+    font-weight: bold !important;
+    
+  }
+  
+  .nav-item > a {
+    color: #fff !important;
+  }
+
+  .nav-item .active {
+    color: #ffff00 !important;
+  }
+  
+  .nav-item a:hover {
+    color: #eded3b !important;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(255, 102, 203);
+  }
+
+.nav-link,
+.navbar-brand {
+	color: #fff !important;
+}
+
+/* Carousel */
+
+.carousel-slide-1 {
+	background-image: url("pics/backdrop-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 85vh;
+}
+
+.glass-white {
+	background: linear-gradient(
+		to top,
+		rgba(255, 220, 220, 0.5),
+		rgba(223, 220, 220, 0.1)
+	) !important;
+}
+
+/* Section */
+
+.section-title {
+	color: rgb(26, 86, 176);
+	font-family: "Nunito";
+	text-align: center;
+}
+
+.keyword {
+	color: rgba(4, 93, 230, 1);
+	font-weight: 600;
+}
+
+.clg-pic {
+	width: 60% !important;
+}
+
+@media (max-width: 767px) {
+	.clg-pic {
+		width: 95% !important;
+	}
+}
+
+/* Footer */
+
+.footer {
+	background: linear-gradient(
+		to top,
+		rgb(0, 128, 255),
+		rgba(4, 93, 230, 1)
+	) !important;
+	color: #fff !important;
+}
+
+.footer-logo {
+	width: 65%;
+	margin-bottom: 10px;
+}
+
+.footer-icons i {
+	font-size: x-large;
+}
+
+.footer-mail i {
+	font-size: large;
+	margin-right: 3px;
+}
+
+.footer h4 i {
+	font-size: larger;
+}
+
+.footer-mail a {
+	text-decoration: none;
+	font-size: larger;
+}
+
+.quick-links {
+	padding-left: 10px;
+	width: fit-content;
+}
+
+.quick-links li {
+	list-style: none;
+	font-size: large;
+	transition: transform 0.3s ease-in-out;
+	margin-bottom: 3px;
+}
+
+.quick-links li a {
+	text-decoration: none;
+}
+
+.quick-links li:hover {
+	cursor: pointer;
+	transform: translateX(8px);
+}
+
+.footer-icon-glow {
+	transition: color 0.3s ease-in-out !important;
+}
+
+.footer-icon-glow:hover {
+	color: #ffff00 !important;
+}
+
+.footer-text-glow {
+	transition: color 0.3s ease-in-out !important;
+}
+
+.footer-text-glow:hover {
+	color: #ffff00 !important;
+}
+
+.footer-link-glow > i {
+	transition: color 0.3s ease-in-out !important;
+}
+
+.footer-link-glow:hover > i {
+	color: #ffff00 !important;
+}
+
+.footer-text-glow > a:hover {
+	color: #ffff00 !important;
+}
+
+.footer-li-glow:hover > * {
+	color: #ffff00 !important;
+}
+
+.footer-li-glow + h4 {
+    transition: color 0.3s ease-in-out !important;
+}
+
+.footer-li-glow:hover + h4  {
+    color: #ffff00 !important;
+    
+}
+
+.footer-hr {
+	height: 3px;
+	background-color: #fff;
+}
+
+.footer h4 i {
+    vertical-align: middle;
+}
+
+/* Payment */
+
+#form-link {
+    width: 23.5em !important;
+}
+
+/* advisory Committee */
+
+
